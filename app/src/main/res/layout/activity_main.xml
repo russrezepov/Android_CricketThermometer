@@ -8,7 +8,25 @@
     android:background="@color/colorPrimaryLight"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="140"
+        android:layout_height="160"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10"
+        app:srcCompat="@drawable/Thermometer" />
 
-
-
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20"
+        android:layout_marginTop="10"
+        android:layout_marginRight="20"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#000509"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:text="do you know you can determine the temperature outside by counting the number of chirps the cricket makes. Just count the number of chirps the cricket makes in 25 seconds  and place that number in the box" />
 </LinearLayout>
